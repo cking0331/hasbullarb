@@ -62,9 +62,7 @@ li:hover {
 .arb {
     width: 40rem;
 }
-.what {
-    margin-top: 10rem;
-}
+
 .ayaw {
     margin: 0;
     margin-block-end: 0;
@@ -115,6 +113,12 @@ filter: blur(150px);
     }
     .darkdark {
         display: none;
+    }
+    p {
+        font-size: 12px;
+    }
+    .resize {
+        font-size: 30px;
     }
 }
 @media (max-width: 1000px) {
