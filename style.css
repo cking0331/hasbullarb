@@ -124,7 +124,7 @@ filter: blur(150px);
         position: absolute;
         flex-direction: row;
         top: 90px;
-        right: 110px;
+        right: 70px;
         z-index: 10;
         gap: 20px;
         padding-top: 20px;
