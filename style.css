@@ -99,7 +99,7 @@ top: 250px;
 background: #4F4642;
 filter: blur(150px);
 }
-.darkdark {
+/* .darkdark {
     position: absolute;
     width: 852px;
     height: 492px;
@@ -108,7 +108,7 @@ filter: blur(150px);
     
     background: #4F4642;
     filter: blur(150px);  
-}
+} */
 @media (max-width: 1000px) {
     .testtest {
         display: none;
