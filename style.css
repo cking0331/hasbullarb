@@ -1,0 +1,124 @@
+* {
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #dfdbbf;
+}
+.logo {
+    width: 4rem;
+    border-radius: 50%;
+}
+li {
+    transition: transform 0.2s;
+}
+li:hover {
+    transform: scale(1.1);
+}
+.welcome {
+    font-size: 5rem;
+}
+.hash {
+    color: #c9ab05;
+}
+
+.treasure {
+    color: #c9ab05;
+}
+.butones {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btn {
+    background-color: #c9ab05;
+    transition: transform 0.2s;
+    margin-left: 20px;  
+}
+.btn:hover {
+    transform: scale(1.2);
+}
+.ca {
+    font-weight: 700;
+}
+.img-fluid {
+    border-radius: 50%;
+    animation: eclipse-fade 2s ease-in-out infinite;
+}
+.telegram {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+    position: fixed;
+    flex-direction: column;
+    right: 0;
+}
+
+.fa-telegram {
+    margin-bottom: 40px;
+}
+.arb {
+    width: 40rem;
+}
+.what {
+    margin-top: 10rem;
+}
+.ayaw {
+    margin: 0;
+    margin-block-end: 0;
+    color: white;
+    padding: 70px;
+}
+
+@keyframes eclipse-fade {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+@media (max-width: 1000px) {
+    .welcome {
+        font-size: 3rem;
+    }
+}
+.testtest {
+    position: absolute;
+width: 852px;
+height: 492px;
+left: -40rem;
+top: 250px;
+
+background: #4F4642;
+filter: blur(150px);
+}
+.darkdark {
+    position: absolute;
+    width: 852px;
+    height: 492px;
+    right: -500px;
+    bottom: -700px;
+    
+    background: #4F4642;
+    filter: blur(150px);  
+}
+@media (max-width: 1000px) {
+    .testtest {
+        display: none;
+    }
+    .darkdark {
+        display: none;
+    }
+}
+@media (max-width: 1000px) {
+    .reset {
+        text-align: center;
+    }
+}
