@@ -1,12 +1,12 @@
 * {
-    font-family: 'Cinzel', serif;
+    font-family: 'VT323', monospace;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
 body {
-    background-color: #dfdbbf;
+    background-image: linear-gradient(to right, #588639 , #444929);
 }
 .logo {
     width: 4rem;
@@ -22,18 +22,18 @@ li:hover {
     font-size: 5rem;
 }
 .hash {
-    color: #c9ab05;
+    color: #AC2431;
 }
 
 .treasure {
-    color: #c9ab05;
+    color: #AC2431;
 }
 .butones {
     margin-top: 20px;
     margin-bottom: 30px;
 }
 .btn {
-    background-color: #c9ab05;
+    background-color: #AC2431;
     transition: transform 0.2s;
     margin-left: 20px;  
 }
@@ -97,6 +97,9 @@ top: 250px;
 background: #4F4642;
 filter: blur(150px);
 }
+.sect {
+    padding-top: 100px;
+}
 /* .darkdark {
     position: absolute;
     width: 852px;
@@ -130,7 +133,7 @@ filter: blur(150px);
         padding-top: 20px;
     }
     .sect {
-      padding-top: 60px;
+      padding-top: 80px;
     }
 }
 @media (max-width: 1000px) {
